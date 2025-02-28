@@ -1,0 +1,1728 @@
+BLASTN 2.15.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_022113875.1_Hydra_105_v3_genomic.fna
+           56 sequences; 819,402,624 total letters
+
+
+
+Query= MN822271.1 Hydra vulgaris opsin (OpD17) mRNA, complete cds
+
+Length=1009
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_061166.1 Hydra vulgaris isolate 105 chromosome 11, Hydra_105_v...  1814    0.0  
+NC_061156.1 Hydra vulgaris isolate 105 chromosome 1, Hydra_105_v3...  93.5    6e-17
+NC_061170.1 Hydra vulgaris isolate 105 chromosome 15, Hydra_105_v...  63.9    5e-08
+NC_061168.1 Hydra vulgaris isolate 105 chromosome 13, Hydra_105_v...  60.2    6e-07
+NC_061167.1 Hydra vulgaris isolate 105 chromosome 12, Hydra_105_v...  60.2    6e-07
+NC_061165.1 Hydra vulgaris isolate 105 chromosome 10, Hydra_105_v...  60.2    6e-07
+NC_061161.1 Hydra vulgaris isolate 105 chromosome 6, Hydra_105_v3...  60.2    6e-07
+NC_061160.1 Hydra vulgaris isolate 105 chromosome 5, Hydra_105_v3...  60.2    6e-07
+NC_061157.1 Hydra vulgaris isolate 105 chromosome 2, Hydra_105_v3...  60.2    6e-07
+NC_061169.1 Hydra vulgaris isolate 105 chromosome 14, Hydra_105_v...  58.4    2e-06
+NC_061163.1 Hydra vulgaris isolate 105 chromosome 8, Hydra_105_v3...  58.4    2e-06
+NC_061162.1 Hydra vulgaris isolate 105 chromosome 7, Hydra_105_v3...  58.4    2e-06
+NC_061164.1 Hydra vulgaris isolate 105 chromosome 9, Hydra_105_v3...  56.5    8e-06
+NC_061159.1 Hydra vulgaris isolate 105 chromosome 4, Hydra_105_v3...  56.5    8e-06
+NC_061158.1 Hydra vulgaris isolate 105 chromosome 3, Hydra_105_v3...  54.7    3e-05
+
+
+>NC_061166.1 Hydra vulgaris isolate 105 chromosome 11, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=51488711
+
+ Score = 1814 bits (982),  Expect = 0.0
+ Identities = 982/982 (100%), Gaps = 0/982 (0%)
+ Strand=Plus/Minus
+
+Query  28        AGATTTGCTTATATTTAATTAATCCTAAAATGGCTTTAAATTTATTTCTTTTTACAATAC  87
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30967621  AGATTTGCTTATATTTAATTAATCCTAAAATGGCTTTAAATTTATTTCTTTTTACAATAC  30967562
+
+Query  88        TCTTTACGTCAGTAATATTAAATGCAACAGCCTGTTATATTATTTTGCTTAAAATAAAGA  147
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30967561  TCTTTACGTCAGTAATATTAAATGCAACAGCCTGTTATATTATTTTGCTTAAAATAAAGA  30967502
+
+Query  148       AGAAAGAAATAACGCATTTGTTTATTACCAGCATTTCGCTTACAAACATGCTGGAGTCAA  207
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30967501  AGAAAGAAATAACGCATTTGTTTATTACCAGCATTTCGCTTACAAACATGCTGGAGTCAA  30967442
+
+Query  208       TAGTTGGATTTATTCCTCAGATTACTACTTCTGAAAATTTTTTGTTAGAACGAACTCCGT  267
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30967441  TAGTTGGATTTATTCCTCAGATTACTACTTCTGAAAATTTTTTGTTAGAACGAACTCCGT  30967382
+
+Query  268       TATGTATTTCAAGTGGCTTTGCAGTTTTTGGCTGCGCCATAACAAGTATAACTCACATTA  327
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30967381  TATGTATTTCAAGTGGCTTTGCAGTTTTTGGCTGCGCCATAACAAGTATAACTCACATTA  30967322
+
+Query  328       CAGCGCTTTCCTTTATGAGAACAATTGTCATGAAATATCCttttttttATTACAAAACTT  387
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30967321  CAGCGCTTTCCTTTATGAGAACAATTGTCATGAAATATCCTTTTTTTTATTACAAAACTT  30967262
+
+Query  388       GCAAGAAGATGTGGGTTAAGGCTACTTTAATTGCAATGTGCTATTTTTACGGTTTTAGTT  447
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30967261  GCAAGAAGATGTGGGTTAAGGCTACTTTAATTGCAATGTGCTATTTTTACGGTTTTAGTT  30967202
+
+Query  448       GGGCAACGTTTCCATTGATTGGTTGGTCTAAATATGAATTAGATCTTGATAAAAAGAGGT  507
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30967201  GGGCAACGTTTCCATTGATTGGTTGGTCTAAATATGAATTAGATCTTGATAAAAAGAGGT  30967142
+
+Query  508       GTTCATTGGATTGGAAATTAACACAATCAGACTCTGCATCATATTTTTTAACAATTTTAA  567
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30967141  GTTCATTGGATTGGAAATTAACACAATCAGACTCTGCATCATATTTTTTAACAATTTTAA  30967082
+
+Query  568       TATTTTGCAATTTATTGCCGGCTATAGTTATATCAACAACGTTATACACCAGCAGAAAAA  627
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30967081  TATTTTGCAATTTATTGCCGGCTATAGTTATATCAACAACGTTATACACCAGCAGAAAAA  30967022
+
+Query  628       TTATTTCTAAAAGAAATGCGCGTGAAGATTGTCAAAACCATCAAGCATCACTTGATATTT  687
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30967021  TTATTTCTAAAAGAAATGCGCGTGAAGATTGTCAAAACCATCAAGCATCACTTGATATTT  30966962
+
+Query  688       TAGAAAATGATTACTTAAACGTATGTCTTTTATCAACAGCAACATTTTTCTTTATTTGGA  747
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30966961  TAGAAAATGATTACTTAAACGTATGTCTTTTATCAACAGCAACATTTTTCTTTATTTGGA  30966902
+
+Query  748       CACCCTACGCTGTTATTGGTGTTTTAACAATACTAAAGATCGTTATACCGACGCAGTTGG  807
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30966901  CACCCTACGCTGTTATTGGTGTTTTAACAATACTAAAGATCGTTATACCGACGCAGTTGG  30966842
+
+Query  808       TGACAGCAGGTGCTATGTTTGCAAAGTTGTCCACAATTACTAATGTTGTCATTAATTGTT  867
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30966841  TGACAGCAGGTGCTATGTTTGCAAAGTTGTCCACAATTACTAATGTTGTCATTAATTGTT  30966782
+
+Query  868       TTATTGTTAAATCATTCAAAAACCAACTCCTTGAATTAAGATTAATTCAATATATTCGAA  927
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30966781  TTATTGTTAAATCATTCAAAAACCAACTCCTTGAATTAAGATTAATTCAATATATTCGAA  30966722
+
+Query  928       ATATAAATaaaaaaaTCTCAGCGGTTCATCCTTATCATGATTCAACCTTGAACTGAAGTT  987
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30966721  ATATAAATAAAAAAATCTCAGCGGTTCATCCTTATCATGATTCAACCTTGAACTGAAGTT  30966662
+
+Query  988       AATTGCATGTAATGTGTTGTTC  1009
+                 ||||||||||||||||||||||
+Sbjct  30966661  AATTGCATGTAATGTGTTGTTC  30966640
+
+
+ Score = 1319 bits (714),  Expect = 0.0
+ Identities = 856/926 (92%), Gaps = 4/926 (0%)
+ Strand=Plus/Minus
+
+Query  71        ATTTCTTTTTACAATACTCTTTACGTCAGTAATATTAAATGCAACAGCCTGTTATATTAT  130
+                 |||| |||| | |||||| || ||||||||||| ||||| ||||||||||||||||| ||
+Sbjct  30920958  ATTTTTTTTCATAATACTATTAACGTCAGTAATGTTAAACGCAACAGCCTGTTATATCAT  30920899
+
+Query  131       TTTGCTTAAAATAAAGAAGAAAGAAATAACGCATTTGTTTATTACCAGCATTTCGCTTAC  190
+                 |||||||||| ||||||| ||||||||||||||| ||||||||| |||||||||||||| 
+Sbjct  30920898  TTTGCTTAAAGTAAAGAAAAAAGAAATAACGCATCTGTTTATTATCAGCATTTCGCTTAT  30920839
+
+Query  191       AAACATGCTGGAGTCAATAGTTGGATTTATTCCTCAGAT-TACT-ACTTCTGAAAATTTT  248
+                 ||| |||||||| |||||||||||||||||||||  ||| || | || |||||    | |
+Sbjct  30920838  AAATATGCTGGAATCAATAGTTGGATTTATTCCT--GATATATTAACATCTGATGGATCT  30920781
+
+Query  249       TTGTTAGAACGAACTCCGTTATGTATTTCAAGTGGCTTTGCAGTTTTTGGCTGCGCCATA  308
+                 ||  || | ||||| || || ||||||||||| |||||| |||||||||| |||||||||
+Sbjct  30920780  TTAATAAATCGAACACCATTGTGTATTTCAAGCGGCTTTACAGTTTTTGGATGCGCCATA  30920721
+
+Query  309       ACAAGTATAACTCACATTACAGCGCTTTCCTTTATGAGAACAATTGTCATGAAATATCCt  368
+                 |||||||||||||||||||||| |||||| ||||| |||||| ||||||| |||||||||
+Sbjct  30920720  ACAAGTATAACTCACATTACAGTGCTTTCTTTTATTAGAACACTTGTCATAAAATATCCT  30920661
+
+Query  369       tttttttATTACAAAACTTGCAAGAAGATGTGGGTTAAGGCTACTTTAATTGCAATGTGC  428
+                 ||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30920660  TTTTTTTATCACAAAACTTGCAAGAAGATGTGGGTTAAGGCTACTTTAATTGCAATGTGC  30920601
+
+Query  429       TATTTTTACGGTTTTAGTTGGGCAACGTTTCCATTGATTGGTTGGTCTAAATATGAATTA  488
+                 ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30920600  TATTTGTACGGTTTTAGTTGGGCAACGTTTCCATTGATTGGTTGGTCTAAATATGAATTA  30920541
+
+Query  489       GATCTTGATAAAAAGAGGTGTTCATTGGATTGGAAATTAACACAATCAGACTCTGCATCA  548
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30920540  GATCTTGATAAAAAGAGGTGTTCATTGGATTGGAAATTAACACAATCAGACTCTGCATCA  30920481
+
+Query  549       TATTTTTTAACAATTTTAATATTTTGCAATTTATTGCCGGCTATAGTTATATCAACAACG  608
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30920480  TATTTTTTAACAATTTTAATATTTTGCAATTTATTGCCGGCTATAGTTATATCAACAACG  30920421
+
+Query  609       TTATACACCAGCAGAAAAATTATTTCTAAAAGAAATGCGCGTGAAGATTGTCAAAACCAT  668
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  30920420  TTATACACCAGCAGAAAAATTATTTCTAAAAGAAATGCGCGTGAAGATTGTCAAAACCAT  30920361
+
+Query  669       CAAGCATCACTTGATATTTTAGAAAATGATTACTTAAACGTATGTCTTTTATCAACAGCA  728
+                 |||||||| ||||||||||||||||||||||| ||||||||||||||||||||||||| |
+Sbjct  30920360  CAAGCATCGCTTGATATTTTAGAAAATGATTATTTAAACGTATGTCTTTTATCAACAGGA  30920301
+
+Query  729       ACATTTTTCTTTATTTGGACACCCTACGCTGTTATTGGTGTTTTAACAATACTAAAGATC  788
+                 |||||||| || || |||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  30920300  ACATTTTTTTTCATCTGGACACCCTACGCTGTTATTGGTTTTTTAACAATACTAAAGATC  30920241
+
+Query  789       GTTATACCGACGCAGTTGGTGACAGCAGGTGCTATGTTTGCAAAGTTGTCCACAATTACT  848
+                 ||||||||||||||||||||||||||| ||||||| |||||||||||||| || ||||||
+Sbjct  30920240  GTTATACCGACGCAGTTGGTGACAGCAAGTGCTATATTTGCAAAGTTGTCTACTATTACT  30920181
+
+Query  849       AATGTTGTCATTAATTGTTTTATTGTTAAATCATTCAAAAACCAACTCCTTGAATTAAGA  908
+                 || ||  ||||||||||||||||||||||||||||||||||| |||||||||||||||||
+Sbjct  30920180  AACGTCATCATTAATTGTTTTATTGTTAAATCATTCAAAAACTAACTCCTTGAATTAAGA  30920121
+
+Query  909       TTAATTCAATATATTCGAAATATAAATaaaaaaaTCTCAGCGGTTCATCCTTATCATGAT  968
+                 ||||||||||||||||||||||||||||| |||| ||||||||||||||| | | |||||
+Sbjct  30920120  TTAATTCAATATATTCGAAATATAAATAATAAAAACTCAGCGGTTCATCCATGTGATGAT  30920061
+
+Query  969       TCAACCTTGAACTGAAGTTAATTGCA  994
+                 ||||   | || |  |||||||||||
+Sbjct  30920060  TCAAAAATTAATTACAGTTAATTGCA  30920035
+
+
+ Score = 791 bits (428),  Expect = 0.0
+ Identities = 740/894 (83%), Gaps = 7/894 (1%)
+ Strand=Plus/Minus
+
+Query  72        TTT-CTTTTTACAATACTCTTTACGTCAGTAATATTAAATGCAACAGCCTGTTATATTAT  130
+                 ||| ||||  |||||||| || |  || || ||  |||||||||||||||| ||||||||
+Sbjct  31006081  TTTACTTTCCACAATACTTTTAATATCTGTTATCCTAAATGCAACAGCCTGCTATATTAT  31006022
+
+Query  131       TTTGCTTAAAATAAAGAAGAAAGAAATAACGCATTTGTTTATTACCAGCATTTCGCTTAC  190
+                 |||||||||| ||||||||||||||||||| |||||||||||| ||||||||||| ||||
+Sbjct  31006021  TTTGCTTAAAGTAAAGAAGAAAGAAATAACACATTTGTTTATTGCCAGCATTTCGTTTAC  31005962
+
+Query  191       AAACATGCTGGAGTCAATAGTTGGATTTATTCCTCAGATTACTACTTCTGAAAATTTTTT  250
+                 |||||||||||| ||||| |||||||||||||||||||||   |||||||| ||  ||||
+Sbjct  31005961  AAACATGCTGGAATCAATGGTTGGATTTATTCCTCAGATTGTAACTTCTGACAAAATTTT  31005902
+
+Query  251       GTTAGAACGAACTCCGTTATGTATTTCAAGTGGCTTTGCAGTTTTTGGCTGCGCCATAAC  310
+                  ||||||||||||||||||||||||| ||| ||||||| ||||||||| |||||  ||||
+Sbjct  31005901  ATTAGAACGAACTCCGTTATGTATTTTAAGCGGCTTTGTAGTTTTTGGGTGCGCTGTAAC  31005842
+
+Query  311       AAGTATAACTCACATTACAGCGCTTTCCTTTATGAGAACAATTGTCATGAAATATCCttt  370
+                 |||||||||||||||||||   ||||| |  || ||||||   || || |||||||||||
+Sbjct  31005841  AAGTATAACTCACATTACAATACTTTCATCAATCAGAACAGCCGTTATAAAATATCCTTT  31005782
+
+Query  371       tttttATTACAAAACTTGCAAGAAGATGTGGGTTAAGGCTACTTTAATTGCAATGTGCTA  430
+                 |||||||||  ||||  |||||||  ||||| ||||  | || || ||  |||| |||||
+Sbjct  31005781  TTTTTATTATGAAACGAGCAAGAAAGTGTGGTTTAAAACAACCTTGATAACAATCTGCTA  31005722
+
+Query  431       TTTTTACGGTTTTAGTTGGGCAACGTTTCCATTGATTGGTTGGTCTAAATATGAATTAGA  490
+                 | | ||||||||||||||||| || ||||||||||||||||||||||| |||||| ||||
+Sbjct  31005721  TATCTACGGTTTTAGTTGGGCTACATTTCCATTGATTGGTTGGTCTAAGTATGAAGTAGA  31005662
+
+Query  491       TCTTGATAAAAAGAGGTGTTCATTGGATTGGAAATTAACACAATCAGACTCTGCATCATA  550
+                 | | ||||||||| | ||||| |||||||||||| ||||| ||||| |||||  ||| ||
+Sbjct  31005661  TGTCGATAAAAAGCGATGTTCCTTGGATTGGAAACTAACAAAATCAAACTCTTTATCTTA  31005602
+
+Query  551       TTTTTTAACAATTTTAATATTTTGCAATTTATTGCCGGCTATAGTTATATCAACAACGTT  610
+                  |||  | || | ||| ||||||||||| || ||||   | |||| ||||||||||||||
+Sbjct  31005601  CTTTGCAGCAGTATTAGTATTTTGCAATATAATGCCTTGTTTAGTCATATCAACAACGTT  31005542
+
+Query  611       ATACACCAGCAGAAAAATTATTTCTAAAAGAAATGCGCGTGAAGATTGTCA-A---AA--  664
+                 |||||||||||||||| | |||||| ||||||| || ||| ||| | |||| |   ||  
+Sbjct  31005541  ATACACCAGCAGAAAACTCATTTCTGAAAGAAAAGCTCGTAAAGCTAGTCAGAGCCAAAG  31005482
+
+Query  665       CCATCAAGCATCACTTGATATTTTAGAAAATGATTACTTAAACGTATGTCTTTTATCAAC  724
+                 ||||||||  || ||||||||||||||||||||||| || || ||||||||||| ||| |
+Sbjct  31005481  CCATCAAGTTTCTCTTGATATTTTAGAAAATGATTATTTGAAAGTATGTCTTTTGTCAGC  31005422
+
+Query  725       AGCAACATTTTTCTTTATTTGGACACCCTACGCTGTTATTGGTGTTTTAACAATACTAAA  784
+                 |  | |||||||| | | |||| ||||||| || ||||||||| |||||||| || ||||
+Sbjct  31005421  AATAGCATTTTTCATAACTTGGGCACCCTATGCAGTTATTGGTATTTTAACAGTATTAAA  31005362
+
+Query  785       GATCGTTATACCGACGCAGTTGGTGACAGCAGGTGCTATGTTTGCAAAGTTGTCCACAAT  844
+                 ||| ||||| ||||| |||||||| || || |  ||  |||||||||||||||| || ||
+Sbjct  31005361  GATTGTTATTCCGACACAGTTGGTCACTGCTGCGGCATTGTTTGCAAAGTTGTCTACTAT  31005302
+
+Query  845       TACTAATGTTGTCATTAATTGTTTTATTGTTAAATCATTCAAAAACCAACTCCTTGAATT  904
+                 |||||||||| ||||||||||||||||  || | ||||| ||||||||| |  |||| ||
+Sbjct  31005301  TACTAATGTTATCATTAATTGTTTTATCATTGAGTCATTTAAAAACCAAGTTTTTGACTT  31005242
+
+Query  905       AAGATTAATTCAATATATTCGAAATATAAATaaaaaaaTCTCAGCGGTTCATCC  958
+                 |||||| ||| ||||||||||||  |||||||||| || ||||  |||||| ||
+Sbjct  31005241  AAGATTCATTAAATATATTCGAAGCATAAATAAAATAACCTCAAAGGTTCAACC  31005188
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 34/35 (97%), Gaps = 1/35 (3%)
+ Strand=Plus/Minus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAG-ATTTG  34
+                ||||||||||||||||||||||||||||| |||||
+Sbjct  9712550  CTGAAACTTTTTAGTCCCTGTGTAATAAGTATTTG  9712516
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 |||||||||||||||||||||||||||||||
+Sbjct  18982699  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  18982669
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 32/33 (97%), Gaps = 0/33 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAGATTT  33
+                ||||||||||||||||||||||||||||| |||
+Sbjct  1642151  CTGAAACTTTTTAGTCCCTGTGTAATAAGCTTT  1642119
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                ||||||||||||||||||||||||||||||
+Sbjct  4262202  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  4262231
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                 ||||||||||||||||||||||||||||||
+Sbjct  32592453  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  32592482
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                 ||||||||||||||||||||||||||||||
+Sbjct  51082893  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  51082922
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                |||||||||||||||||||||||||||||
+Sbjct  7076116  CTGAAACTTTTTAGTCCCTGTGTAATAAG  7076144
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  20669351  CTGAAACTTTTTAGTCCCTGTGTAATAAG  20669379
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  31549889  CTGAAACTTTTTAGTCCCTGTGTAATAAG  31549861
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  34470394  CTGAAACTTTTTAGTCCCTGTGTAATAAG  34470422
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAA  28
+                ||||||||||||||||||||||||||||
+Sbjct  6212182  CTGAAACTTTTTAGTCCCTGTGTAATAA  6212155
+
+
+>NC_061156.1 Hydra vulgaris isolate 105 chromosome 1, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=55455600
+
+ Score = 93.5 bits (50),  Expect = 6e-17
+ Identities = 52/53 (98%), Gaps = 0/53 (0%)
+ Strand=Plus/Minus
+
+Query  365       TCCttttttttATTACAAAACTTGCAAGAAGATGTGGGTTAAGGCTACTTTAA  417
+                 |||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  42381145  TCCTTTTTTTTATTACAAAACTTGCAAGAAGATGTGGGTTAAGGCTACTTAAA  42381093
+
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 45/51 (88%), Gaps = 2/51 (4%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT-TAATTAAT  50
+                 ||||||||||||||||||||||||||||| ||  || ||||| ||| ||||
+Sbjct  45582812  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATTATAACTAAT  45582763
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 35/37 (95%), Gaps = 1/37 (3%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTT-GCT  36
+                 ||||||||||||||||||||||||||||| ||| |||
+Sbjct  12882570  CTGAAACTTTTTAGTCCCTGTGTAATAAGTTTTAGCT  12882534
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  4         AAACTTTTTAGTCCCTGTGTAATAAGATT  32
+                 |||||||||||||||||||||||||||||
+Sbjct  14536442  AAACTTTTTAGTCCCTGTGTAATAAGATT  14536414
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  29980179  CTGAAACTTTTTAGTCCCTGTGTAATAAG  29980207
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  36003569  CTGAAACTTTTTAGTCCCTGTGTAATAAG  36003597
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  36815297  CTGAAACTTTTTAGTCCCTGTGTAATAAG  36815325
+
+
+>NC_061170.1 Hydra vulgaris isolate 105 chromosome 15, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=42201620
+
+ Score = 63.9 bits (34),  Expect = 5e-08
+ Identities = 34/34 (100%), Gaps = 0/34 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTG  34
+                 ||||||||||||||||||||||||||||||||||
+Sbjct  34433769  CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTG  34433736
+
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 45/51 (88%), Gaps = 2/51 (4%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT-TAATTAAT  50
+                 ||||||||||||||||||||||||||||| ||  || ||||| ||| ||||
+Sbjct  31899182  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATTATAACTAAT  31899133
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 |||||||||||||||||||||||||||||||
+Sbjct  23367609  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  23367639
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 31/32 (97%), Gaps = 0/32 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATT  32
+                 ||||||||||||||||||||||||||||| ||
+Sbjct  23464623  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTT  23464592
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+
+Query  2         TGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 ||||||||||||||||||||||||||||
+Sbjct  38791697  TGAAACTTTTTAGTCCCTGTGTAATAAG  38791670
+
+
+>NC_061168.1 Hydra vulgaris isolate 105 chromosome 13, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=42497472
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 45/51 (88%), Gaps = 2/51 (4%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT-TAATTAAT  50
+                 ||||||||||||||||||||||||||||| ||  || ||||| ||| ||||
+Sbjct  24119465  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATTATAACTAAT  24119416
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                ||||||||||||||||||||||||||||||
+Sbjct  3473063  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  3473092
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                |||||||||||||||||||||||||||||
+Sbjct  1528726  CTGAAACTTTTTAGTCCCTGTGTAATAAG  1528698
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                |||||||||||||||||||||||||||||
+Sbjct  4592988  CTGAAACTTTTTAGTCCCTGTGTAATAAG  4593016
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  23376403  CTGAAACTTTTTAGTCCCTGTGTAATAAG  23376375
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  23622299  CTGAAACTTTTTAGTCCCTGTGTAATAAG  23622327
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  38104339  CTGAAACTTTTTAGTCCCTGTGTAATAAG  38104367
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Plus
+
+Query  2         TGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 ||||||||||||||||||||||||||||
+Sbjct  40247774  TGAAACTTTTTAGTCCCTGTGTAATAAG  40247801
+
+
+>NC_061167.1 Hydra vulgaris isolate 105 chromosome 12, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=49247934
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 45/51 (88%), Gaps = 2/51 (4%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT-TAATTAAT  50
+                ||||||||||||||||||||||||||||| ||  || ||||| ||| ||||
+Sbjct  5591241  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATTATAACTAAT  5591290
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                |||||||||||||||||||||||||||||||
+Sbjct  4471608  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  4471578
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 34/35 (97%), Gaps = 1/35 (3%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAG-ATTTG  34
+                ||||||||||||||||||||||||||||| |||||
+Sbjct  5494339  CTGAAACTTTTTAGTCCCTGTGTAATAAGTATTTG  5494373
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 34/35 (97%), Gaps = 1/35 (3%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG-ATTTG  34
+                 ||||||||||||||||||||||||||||| |||||
+Sbjct  10734968  CTGAAACTTTTTAGTCCCTGTGTAATAAGTATTTG  10734934
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 34/35 (97%), Gaps = 1/35 (3%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG-ATTTG  34
+                 ||||||||||||||||||||||||||||| |||||
+Sbjct  31475897  CTGAAACTTTTTAGTCCCTGTGTAATAAGTATTTG  31475931
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 32/33 (97%), Gaps = 0/33 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTT  33
+                 ||||||||||||||||||||||||||||| |||
+Sbjct  28031190  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTT  28031222
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                 ||||||||||||||||||||||||||||||
+Sbjct  37920947  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  37920976
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                 ||||||||||||||||||||||||||||||
+Sbjct  47925093  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  47925064
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                 ||||||||||||||||||||||||||||||
+Sbjct  47925138  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  47925167
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  14849194  CTGAAACTTTTTAGTCCCTGTGTAATAAG  14849222
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 32/33 (97%), Gaps = 1/33 (3%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTT  33
+                 ||||||||||||||||||||||||||||| |||
+Sbjct  28695454  CTGAAACTTTTTAGTCCCTGTGTAATAAG-TTT  28695485
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  42939487  CTGAAACTTTTTAGTCCCTGTGTAATAAG  42939515
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Plus
+
+Query  2         TGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 ||||||||||||||||||||||||||||
+Sbjct  23641357  TGAAACTTTTTAGTCCCTGTGTAATAAG  23641384
+
+
+>NC_061165.1 Hydra vulgaris isolate 105 chromosome 10, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=50363522
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 45/51 (88%), Gaps = 2/51 (4%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT-TAATTAAT  50
+                 ||||||||||||||||||||||||||||| ||  || ||||| ||| ||||
+Sbjct  15954687  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATTATAACTAAT  15954638
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 34/35 (97%), Gaps = 1/35 (3%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG-ATTTG  34
+                 ||||||||||||||||||||||||||||| |||||
+Sbjct  41104077  CTGAAACTTTTTAGTCCCTGTGTAATAAGTATTTG  41104043
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 34/35 (97%), Gaps = 1/35 (3%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG-ATTTG  34
+                 ||||||||||||||||||||||||||||| |||||
+Sbjct  43148745  CTGAAACTTTTTAGTCCCTGTGTAATAAGTATTTG  43148711
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                ||||||||||||||||||||||||||||||
+Sbjct  9350433  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  9350404
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 32/33 (97%), Gaps = 0/33 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTT  33
+                 ||||||||||||||||||||||||||||| |||
+Sbjct  15387514  CTGAAACTTTTTAGTCCCTGTGTAATAAGTTTT  15387546
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  19499677  CTGAAACTTTTTAGTCCCTGTGTAATAAG  19499705
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  26968098  CTGAAACTTTTTAGTCCCTGTGTAATAAG  26968126
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 30/31 (97%), Gaps = 0/31 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 || ||||||||||||||||||||||||||||
+Sbjct  14893750  CTTAAACTTTTTAGTCCCTGTGTAATAAGAT  14893780
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 30/31 (97%), Gaps = 0/31 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 || ||||||||||||||||||||||||||||
+Sbjct  15668118  CTTAAACTTTTTAGTCCCTGTGTAATAAGAT  15668148
+
+
+>NC_061161.1 Hydra vulgaris isolate 105 chromosome 6, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=59913004
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 45/51 (88%), Gaps = 2/51 (4%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT-TAATTAAT  50
+                 ||||||||||||||||||||||||||||| ||  || ||||| ||| ||||
+Sbjct  30433017  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATTATAACTAAT  30432968
+
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 32/32 (100%), Gaps = 0/32 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATT  32
+                 ||||||||||||||||||||||||||||||||
+Sbjct  32058413  CTGAAACTTTTTAGTCCCTGTGTAATAAGATT  32058382
+
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 32/32 (100%), Gaps = 0/32 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATT  32
+                 ||||||||||||||||||||||||||||||||
+Sbjct  35639580  CTGAAACTTTTTAGTCCCTGTGTAATAAGATT  35639611
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                |||||||||||||||||||||||||||||||
+Sbjct  8159704  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  8159674
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 |||||||||||||||||||||||||||||||
+Sbjct  32090229  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  32090199
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                 ||||||||||||||||||||||||||||||
+Sbjct  10669317  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  10669288
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                |||||||||||||||||||||||||||||
+Sbjct  7175311  CTGAAACTTTTTAGTCCCTGTGTAATAAG  7175339
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  22826568  CTGAAACTTTTTAGTCCCTGTGTAATAAG  22826540
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  45102129  CTGAAACTTTTTAGTCCCTGTGTAATAAG  45102157
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+
+Query  2        TGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                ||||||||||||||||||||||||||||
+Sbjct  6304744  TGAAACTTTTTAGTCCCTGTGTAATAAG  6304717
+
+
+>NC_061160.1 Hydra vulgaris isolate 105 chromosome 5, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=60726905
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 45/51 (88%), Gaps = 2/51 (4%)
+ Strand=Plus/Plus
+
+Query  1       CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT-TAATTAAT  50
+               ||||||||||||||||||||||||||||| ||  || ||||| ||| ||||
+Sbjct  967402  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATTATAACTAAT  967451
+
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 45/51 (88%), Gaps = 2/51 (4%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT-TAATTAAT  50
+                 ||||||||||||||||||||||||||||| ||  || ||||| ||| ||||
+Sbjct  52242461  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATTATAACTAAT  52242412
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                |||||||||||||||||||||||||||||||
+Sbjct  2675674  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  2675644
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 34/35 (97%), Gaps = 1/35 (3%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG-ATTTG  34
+                 ||||||||||||||||||||||||||||| |||||
+Sbjct  46381228  CTGAAACTTTTTAGTCCCTGTGTAATAAGTATTTG  46381194
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 32/33 (97%), Gaps = 0/33 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTT  33
+                 ||||||||||||||||||||||||||||| |||
+Sbjct  50962950  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTT  50962982
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  17309184  CTGAAACTTTTTAGTCCCTGTGTAATAAG  17309156
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  23131295  CTGAAACTTTTTAGTCCCTGTGTAATAAG  23131267
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  23826456  CTGAAACTTTTTAGTCCCTGTGTAATAAG  23826484
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  48943822  CTGAAACTTTTTAGTCCCTGTGTAATAAG  48943850
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  57740665  CTGAAACTTTTTAGTCCCTGTGTAATAAG  57740637
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+
+Query  2         TGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 ||||||||||||||||||||||||||||
+Sbjct  59820847  TGAAACTTTTTAGTCCCTGTGTAATAAG  59820820
+
+
+>NC_061157.1 Hydra vulgaris isolate 105 chromosome 2, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=77975161
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 45/51 (88%), Gaps = 2/51 (4%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT-TAATTAAT  50
+                 ||||||||||||||||||||||||||||| ||  || ||||| ||| ||||
+Sbjct  39735416  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATTATAACTAAT  39735465
+
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 45/51 (88%), Gaps = 2/51 (4%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT-TAATTAAT  50
+                 ||||||||||||||||||||||||||||| ||  || ||||| ||| ||||
+Sbjct  58928267  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATTATAACTAAT  58928218
+
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 45/51 (88%), Gaps = 2/51 (4%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT-TAATTAAT  50
+                 ||||||||||||||||||||||||||||| ||  || ||||| ||| ||||
+Sbjct  61891484  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATTATAACTAAT  61891533
+
+
+ Score = 60.2 bits (32),  Expect = 6e-07
+ Identities = 45/51 (88%), Gaps = 2/51 (4%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT-TAATTAAT  50
+                 ||||||||||||||||||||||||||||| ||  || ||||| ||| ||||
+Sbjct  64350469  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATTATAACTAAT  64350420
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 |||||||||||||||||||||||||||||||
+Sbjct  23660543  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  23660573
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 34/35 (97%), Gaps = 1/35 (3%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG-ATTTG  34
+                 ||||||||||||||||||||||||||||| |||||
+Sbjct  35724974  CTGAAACTTTTTAGTCCCTGTGTAATAAGTATTTG  35724940
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 34/35 (97%), Gaps = 1/35 (3%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG-ATTTG  34
+                 ||||||||||||||||||||||||||||| |||||
+Sbjct  73716879  CTGAAACTTTTTAGTCCCTGTGTAATAAGTATTTG  73716845
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 |||||||||||||||||||||||||||||||
+Sbjct  77306998  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  77306968
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 32/33 (97%), Gaps = 0/33 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTT  33
+                 ||||||||||||||||||||||||||||| |||
+Sbjct  47836143  CTGAAACTTTTTAGTCCCTGTGTAATAAGTTTT  47836175
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 32/33 (97%), Gaps = 0/33 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTT  33
+                 ||||||||||||||||||||||||||||| |||
+Sbjct  48567342  CTGAAACTTTTTAGTCCCTGTGTAATAAGTTTT  48567310
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                 ||||||||||||||||||||||||||||||
+Sbjct  77630446  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  77630417
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                |||||||||||||||||||||||||||||
+Sbjct  2077332  CTGAAACTTTTTAGTCCCTGTGTAATAAG  2077360
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                |||||||||||||||||||||||||||||
+Sbjct  9758031  CTGAAACTTTTTAGTCCCTGTGTAATAAG  9758059
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 31/32 (97%), Gaps = 0/32 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATT  32
+                 ||||||||||||||||||||||||||||| ||
+Sbjct  35205239  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTT  35205208
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  37221149  CTGAAACTTTTTAGTCCCTGTGTAATAAG  37221177
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  44086348  CTGAAACTTTTTAGTCCCTGTGTAATAAG  44086320
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  52623937  CTGAAACTTTTTAGTCCCTGTGTAATAAG  52623965
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  59977666  CTGAAACTTTTTAGTCCCTGTGTAATAAG  59977694
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  74468340  CTGAAACTTTTTAGTCCCTGTGTAATAAG  74468312
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+
+Query  4         AAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 ||||||||||||||||||||||||||||
+Sbjct  44446805  AAACTTTTTAGTCCCTGTGTAATAAGAT  44446778
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+
+Query  2         TGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 ||||||||||||||||||||||||||||
+Sbjct  66132222  TGAAACTTTTTAGTCCCTGTGTAATAAG  66132195
+
+
+>NC_061169.1 Hydra vulgaris isolate 105 chromosome 14, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=39157883
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 |||||||||||||||||||||||||||||||
+Sbjct  17702923  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  17702953
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 34/35 (97%), Gaps = 1/35 (3%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG-ATTTG  34
+                 ||||||||||||||||||||||||||||| |||||
+Sbjct  31269955  CTGAAACTTTTTAGTCCCTGTGTAATAAGTATTTG  31269921
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                 ||||||||||||||||||||||||||||||
+Sbjct  11482228  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  11482257
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  25740698  CTGAAACTTTTTAGTCCCTGTGTAATAAG  25740670
+
+
+>NC_061163.1 Hydra vulgaris isolate 105 chromosome 8, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=52021744
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 |||||||||||||||||||||||||||||||
+Sbjct  40859127  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  40859157
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 |||||||||||||||||||||||||||||||
+Sbjct  44955704  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  44955674
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                ||||||||||||||||||||||||||||||
+Sbjct  6441821  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  6441792
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 32/33 (97%), Gaps = 0/33 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAGATTT  33
+                ||||||||||||||||||||||||||||| |||
+Sbjct  7732530  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTT  7732562
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 32/33 (97%), Gaps = 0/33 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTT  33
+                 ||||||||||||||||||||||||||||| |||
+Sbjct  10319206  CTGAAACTTTTTAGTCCCTGTGTAATAAGTTTT  10319174
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 32/33 (97%), Gaps = 0/33 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTT  33
+                 ||||||||||||||||||||||||||||| |||
+Sbjct  10613769  CTGAAACTTTTTAGTCCCTGTGTAATAAGTTTT  10613737
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  19269575  CTGAAACTTTTTAGTCCCTGTGTAATAAG  19269603
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  26873951  CTGAAACTTTTTAGTCCCTGTGTAATAAG  26873923
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  31345456  CTGAAACTTTTTAGTCCCTGTGTAATAAG  31345428
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  33563313  CTGAAACTTTTTAGTCCCTGTGTAATAAG  33563341
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  48918331  CTGAAACTTTTTAGTCCCTGTGTAATAAG  48918303
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAA  28
+                ||||||||||||||||||||||||||||
+Sbjct  3421250  CTGAAACTTTTTAGTCCCTGTGTAATAA  3421277
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAA  28
+                ||||||||||||||||||||||||||||
+Sbjct  3426906  CTGAAACTTTTTAGTCCCTGTGTAATAA  3426933
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 30/31 (97%), Gaps = 0/31 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 |||||||||||||||||||||||||||| ||
+Sbjct  32756273  CTGAAACTTTTTAGTCCCTGTGTAATAAAAT  32756243
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAA  28
+                 ||||||||||||||||||||||||||||
+Sbjct  46640489  CTGAAACTTTTTAGTCCCTGTGTAATAA  46640462
+
+
+>NC_061162.1 Hydra vulgaris isolate 105 chromosome 7, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=55045248
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                |||||||||||||||||||||||||||||||
+Sbjct  6895405  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  6895435
+
+
+ Score = 58.4 bits (31),  Expect = 2e-06
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  31
+                 |||||||||||||||||||||||||||||||
+Sbjct  43119134  CTGAAACTTTTTAGTCCCTGTGTAATAAGAT  43119104
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                |||||||||||||||||||||||||||||
+Sbjct  5016990  CTGAAACTTTTTAGTCCCTGTGTAATAAG  5016962
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  13714278  CTGAAACTTTTTAGTCCCTGTGTAATAAG  13714306
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 38/42 (90%), Gaps = 1/42 (2%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTTGCTTATATT  42
+                 ||||||||||||||||||||||||||||| ||  || |||||
+Sbjct  39226119  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTAACT-ATATT  39226079
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  39226210  CTGAAACTTTTTAGTCCCTGTGTAATAAG  39226182
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  53834200  CTGAAACTTTTTAGTCCCTGTGTAATAAG  53834228
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  54100590  CTGAAACTTTTTAGTCCCTGTGTAATAAG  54100562
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  54100612  CTGAAACTTTTTAGTCCCTGTGTAATAAG  54100640
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAA  28
+                 ||||||||||||||||||||||||||||
+Sbjct  15080689  CTGAAACTTTTTAGTCCCTGTGTAATAA  15080716
+
+
+>NC_061164.1 Hydra vulgaris isolate 105 chromosome 9, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=53447792
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                 ||||||||||||||||||||||||||||||
+Sbjct  36970552  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  36970581
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  25988146  CTGAAACTTTTTAGTCCCTGTGTAATAAG  25988174
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  35309227  CTGAAACTTTTTAGTCCCTGTGTAATAAG  35309255
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  42975430  CTGAAACTTTTTAGTCCCTGTGTAATAAG  42975402
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  43374432  CTGAAACTTTTTAGTCCCTGTGTAATAAG  43374460
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  43797167  CTGAAACTTTTTAGTCCCTGTGTAATAAG  43797139
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  48336303  CTGAAACTTTTTAGTCCCTGTGTAATAAG  48336331
+
+
+ Score = 52.8 bits (28),  Expect = 1e-04
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+
+Query  2         TGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 ||||||||||||||||||||||||||||
+Sbjct  47378043  TGAAACTTTTTAGTCCCTGTGTAATAAG  47378016
+
+
+>NC_061159.1 Hydra vulgaris isolate 105 chromosome 4, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=65793045
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 32/33 (97%), Gaps = 0/33 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGATTT  33
+                 ||||||||||||||||||||||||||||| |||
+Sbjct  29139785  CTGAAACTTTTTAGTCCCTGTGTAATAAGGTTT  29139817
+
+
+ Score = 56.5 bits (30),  Expect = 8e-06
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAGA  30
+                 ||||||||||||||||||||||||||||||
+Sbjct  33196719  CTGAAACTTTTTAGTCCCTGTGTAATAAGA  33196748
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                |||||||||||||||||||||||||||||
+Sbjct  1970981  CTGAAACTTTTTAGTCCCTGTGTAATAAG  1971009
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                |||||||||||||||||||||||||||||
+Sbjct  3723900  CTGAAACTTTTTAGTCCCTGTGTAATAAG  3723872
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                |||||||||||||||||||||||||||||
+Sbjct  5992550  CTGAAACTTTTTAGTCCCTGTGTAATAAG  5992578
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  10082040  CTGAAACTTTTTAGTCCCTGTGTAATAAG  10082012
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  10207229  CTGAAACTTTTTAGTCCCTGTGTAATAAG  10207257
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  10221077  CTGAAACTTTTTAGTCCCTGTGTAATAAG  10221105
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  10236520  CTGAAACTTTTTAGTCCCTGTGTAATAAG  10236492
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  10264368  CTGAAACTTTTTAGTCCCTGTGTAATAAG  10264396
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  10264564  CTGAAACTTTTTAGTCCCTGTGTAATAAG  10264592
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  10271599  CTGAAACTTTTTAGTCCCTGTGTAATAAG  10271627
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  12805726  CTGAAACTTTTTAGTCCCTGTGTAATAAG  12805754
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  32704831  CTGAAACTTTTTAGTCCCTGTGTAATAAG  32704803
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  35686848  CTGAAACTTTTTAGTCCCTGTGTAATAAG  35686820
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  42345561  CTGAAACTTTTTAGTCCCTGTGTAATAAG  42345533
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  46835667  CTGAAACTTTTTAGTCCCTGTGTAATAAG  46835695
+
+
+>NC_061158.1 Hydra vulgaris isolate 105 chromosome 3, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=62712309
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 32/33 (97%), Gaps = 1/33 (3%)
+ Strand=Plus/Plus
+
+Query  1       CTGAAACTTTTTAGTCCCTGTGTAATAAG-ATT  32
+               ||||||||||||||||||||||||||||| |||
+Sbjct  894396  CTGAAACTTTTTAGTCCCTGTGTAATAAGTATT  894428
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  13057743  CTGAAACTTTTTAGTCCCTGTGTAATAAG  13057771
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  25261138  CTGAAACTTTTTAGTCCCTGTGTAATAAG  25261110
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  28315118  CTGAAACTTTTTAGTCCCTGTGTAATAAG  28315090
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  34186329  CTGAAACTTTTTAGTCCCTGTGTAATAAG  34186357
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  57130930  CTGAAACTTTTTAGTCCCTGTGTAATAAG  57130902
+
+
+ Score = 54.7 bits (29),  Expect = 3e-05
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  1         CTGAAACTTTTTAGTCCCTGTGTAATAAG  29
+                 |||||||||||||||||||||||||||||
+Sbjct  57130965  CTGAAACTTTTTAGTCCCTGTGTAATAAG  57130993
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 803012980000
+
+
+  Database: GCF_022113875.1_Hydra_105_v3_genomic.fna
+    Posted date:  Dec 16, 2024  10:52 AM
+  Number of letters in database: 819,402,624
+  Number of sequences in database:  56
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

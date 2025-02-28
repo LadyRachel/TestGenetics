@@ -1,0 +1,84 @@
+BLASTN 2.15.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_022113875.1_Hydra_105_v3_genomic.fna
+           56 sequences; 819,402,624 total letters
+
+
+
+Query= MN822267.1 Hydra vulgaris opsin (OpD13) mRNA, partial cds
+
+Length=449
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_061169.1 Hydra vulgaris isolate 105 chromosome 14, Hydra_105_v...  830     0.0  
+
+
+>NC_061169.1 Hydra vulgaris isolate 105 chromosome 14, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=39157883
+
+ Score = 830 bits (449),  Expect = 0.0
+ Identities = 449/449 (100%), Gaps = 0/449 (0%)
+ Strand=Plus/Plus
+
+Query  1         TAATACTTGTGGTGTTCAttttttttttGCCGCTGCTTATAATTTTAGTGTCGTGTTTGT  60
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  24718965  TAATACTTGTGGTGTTCATTTTTTTTTTGCCGCTGCTTATAATTTTAGTGTCGTGTTTGT  24719024
+
+Query  61        ACACTGCAAGGGTGATTCATCTTAAGTTTAAATATTTTTCAAATACTTATGGCAAAGATA  120
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  24719025  ACACTGCAAGGGTGATTCATCTTAAGTTTAAATATTTTTCAAATACTTATGGCAAAGATA  24719084
+
+Query  121       ATATAGAAACAAAAAGGTTTAAATCAAAAGAAAACAAAGCAGTTTCATCTTTTATAATAA  180
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  24719085  ATATAGAAACAAAAAGGTTTAAATCAAAAGAAAACAAAGCAGTTTCATCTTTTATAATAA  24719144
+
+Query  181       TGGTTTTGACGTTTGTTATATGCTGGGCGCCGTATGCAACTATTGGTCTCTTGTCCGCAT  240
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  24719145  TGGTTTTGACGTTTGTTATATGCTGGGCGCCGTATGCAACTATTGGTCTCTTGTCCGCAT  24719204
+
+Query  241       TTACATCTTTAGTTATTCCAGTTTTACTCCTAAGAGTGGCTGCATTGTTCTCAAAGTTAT  300
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  24719205  TTACATCTTTAGTTATTCCAGTTTTACTCCTAAGAGTGGCTGCATTGTTCTCAAAGTTAT  24719264
+
+Query  301       CTGCTGTCGTCAATCCCATTATATACTACTCTAAAGACAACTTGTACTACAACCTAACTG  360
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  24719265  CTGCTGTCGTCAATCCCATTATATACTACTCTAAAGACAACTTGTACTACAACCTAACTG  24719324
+
+Query  361       TTGCCGTTAAGTTTAGAGCGTCGTTTTTAAGCAAATCTTTTCTAATTGAAGATGCAAAAA  420
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  24719325  TTGCCGTTAAGTTTAGAGCGTCGTTTTTAAGCAAATCTTTTCTAATTGAAGATGCAAAAA  24719384
+
+Query  421       AGATAACTAATAATCCATGCAATTCATAA  449
+                 |||||||||||||||||||||||||||||
+Sbjct  24719385  AGATAACTAATAATCCATGCAATTCATAA  24719413
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 344967844576
+
+
+  Database: GCF_022113875.1_Hydra_105_v3_genomic.fna
+    Posted date:  Dec 16, 2024  10:52 AM
+  Number of letters in database: 819,402,624
+  Number of sequences in database:  56
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

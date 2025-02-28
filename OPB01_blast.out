@@ -1,0 +1,120 @@
+BLASTN 2.15.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_022113875.1_Hydra_105_v3_genomic.fna
+           56 sequences; 819,402,624 total letters
+
+
+
+Query= MN822249.1 Hydra vulgaris opsin (OpB1) mRNA, partial cds
+
+Length=981
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_061159.1 Hydra vulgaris isolate 105 chromosome 4, Hydra_105_v3...  1757    0.0  
+
+
+>NC_061159.1 Hydra vulgaris isolate 105 chromosome 4, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=65793045
+
+ Score = 1757 bits (951),  Expect = 0.0
+ Identities = 971/981 (99%), Gaps = 0/981 (0%)
+ Strand=Plus/Minus
+
+Query  1         CTGCGATACCACAAACGTACTTTTAAATGTCACGTATGGATAGCTTTATCAGTTTTTGAC  60
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  46008933  CTGCGATACCACAAACGTACTTTTAAATGTCACGTATGGATAGCTTTATCAGTTTTTGAC  46008874
+
+Query  61        TTTGTTCGAAATGTTTTTGAAGCTCCTTTAGAAATTGATGCTATTTTTTATGGAAAGTAC  120
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  46008873  TTTGTTCGAAATGTTTTTGAAGCTCCTTTAGAAATTGATGCTATTTTTTATGGAAAGTAC  46008814
+
+Query  121       CGACTAAGCATAGAATGTTCTGTAATTGGCTATTGCAGTAAATTTTTAGAACTTTCCTCA  180
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  46008813  CGACTAAGCATAGAATGTTCTGTAATTGGCTATTGCAGTAAATTTTTAGAACTTTCCTCA  46008754
+
+Query  181       ATTGGAATGTTAACCGTTATTGTTGGTGAACGCTACATCAGTATTTGTCACCCAGGAATG  240
+                 |||||||||||||| |||||| ||||||||||||||||||||||||||||||||||||||
+Sbjct  46008753  ATTGGAATGTTAACGGTTATTATTGGTGAACGCTACATCAGTATTTGTCACCCAGGAATG  46008694
+
+Query  241       TTAATAAGATATTATGGAAAAAGAGCTTTCTCGTTTACTTGCGTCTCATTTTGTATATTT  300
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  46008693  TTAATAAGATATTATGGAAAAAGAGCTTTCTCGTTTACTTGCGTCTCATTTTGTATATTT  46008634
+
+Query  301       TATGCCGCATTTTGGTCATTTATGCCtttttttGGAATCGGCGAATTTGTGAACCATGGC  360
+                 |||||||||||||||||||||||||||||||||||||||||||||||||||||| ||  |
+Sbjct  46008633  TATGCCGCATTTTGGTCATTTATGCCTTTTTTTGGAATCGGCGAATTTGTGAACAATAAC  46008574
+
+Query  361       GAGTATTGTTATCTTCAAAATATAACCAAGCCAAGCGTGGTTTTTATGTACAAACTAAGT  420
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  46008573  GAGTATTGTTATCTTCAAAATATAACCAAGCCAAGCGTGGTTTTTATGTACAAACTAAGT  46008514
+
+Query  421       TTGCTTGCTTTTGCAGTTTTATTACCAGTTTTCATACTGTTTTACTGTAGCATATTAACA  480
+                 |||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||||
+Sbjct  46008513  TTGCTTGCTTTTGCAGTTTTATTACCAGTTTTCATACTGTTTTATTGTAGCATATCAACA  46008454
+
+Query  481       CTTAGAGAATTTAAACAAGCAAAAGAAAGAACCATAAATGTGTTTGGAAACGTTTATTTA  540
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  46008453  CTTAGAGAATTTAAACAAGCAAAAGAAAGAACCATAAATGTGTTTGGAAACGTTTATTTA  46008394
+
+Query  541       GCAAATGACTGCCAAAAAGAAGAAAAAGAAGCGTTGTTGTTAATAATTATGACCGTCATA  600
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  46008393  GCAAATGACTGCCAAAAAGAAGAAAAAGAAGCGTTGTTGTTAATAATTATGACCGTCATA  46008334
+
+Query  601       ATGGCTCTTACTTGGGTTTCGTATTATACAATCCACTTAGTCCTTGCTAATCATGCGATT  660
+                 |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  46008333  ATGGCTGTTACTTGGGTTTCGTATTATACAATCCACTTAGTCCTTGCTAATCATGCGATT  46008274
+
+Query  661       AATAAAAAGGTTATATTTACAGGAGAAATTTTTAGTCAGTTAACAACAGTATCCACTCCT  720
+                 ||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  46008273  AATAAGAAGGTTATATTTACAGGAGAAATTTTTAGTCAGTTAACAACGGTATCCACTCCT  46008214
+
+Query  721       TTTTTCCTGATATTAACAGACAAAGGTTTTAAAGCGACACTAAGTAGAGTCTTTTTAAGA  780
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  46008213  TTTTTCCTGATATTAACAGACAAAGGTTTTAAAGCGACACTAAGTAGAGTCTTTTTAAGA  46008154
+
+Query  781       ATTTTTCATAAAATTAGCTTTAAAACTAAACGCCACGTGACCGTAACTTCCACACAGCTT  840
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  46008153  ATTTTTCATAAAATTAGCTTTAAAACTAAACGCCACGTGACCGTAACTTCCACACAGCTT  46008094
+
+Query  841       TTCAAAATTAACAAAAATATCAAAGaaaaaaaaTATTCATCACAATATACAAGCAGAGTT  900
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  46008093  TTCAAAATTAACAAAAATATCAAAGAAAAAAAATATTCATCACAATATACAAGCAGAGTT  46008034
+
+Query  901       GGTAAATTTACCAGACATTCAGAAATTGAAATGGATCATAAAATACAATTTGAAGATGTA  960
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  46008033  GGTAAATTTACCAGACATTCAGAAATTGAAATGGATCATAAAATACAATTTGAAGATGTA  46007974
+
+Query  961       ATGAGAAATGTGACAAAATGA  981
+                 |||||||||||||||||||||
+Sbjct  46007973  ATGAGAAATGTGACAAAATGA  46007953
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 780069752000
+
+
+  Database: GCF_022113875.1_Hydra_105_v3_genomic.fna
+    Posted date:  Dec 16, 2024  10:52 AM
+  Number of letters in database: 819,402,624
+  Number of sequences in database:  56
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

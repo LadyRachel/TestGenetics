@@ -1,0 +1,100 @@
+BLASTN 2.15.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_022113875.1_Hydra_105_v3_genomic.fna
+           56 sequences; 819,402,624 total letters
+
+
+
+Query= MN822292.1 Hydra vulgaris opsin (OpD38) mRNA, complete cds
+
+Length=705
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_061165.1 Hydra vulgaris isolate 105 chromosome 10, Hydra_105_v...  1303    0.0  
+
+
+>NC_061165.1 Hydra vulgaris isolate 105 chromosome 10, Hydra_105_v3, 
+whole genome shotgun sequence
+Length=50363522
+
+ Score = 1303 bits (705),  Expect = 0.0
+ Identities = 705/705 (100%), Gaps = 0/705 (0%)
+ Strand=Plus/Minus
+
+Query  1        ATGGAAAATGCAACCAAGTGGTGTCAGATCAGTGCGTTTTTTGTAGCATTTCCTTCTTTT  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  8403868  ATGGAAAATGCAACCAAGTGGTGTCAGATCAGTGCGTTTTTTGTAGCATTTCCTTCTTTT  8403809
+
+Query  61       ACATCGATTGCCTTGCTTACCGCAATAAGTTTTATAAAAGCATATTTAATAAATGAACAT  120
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  8403808  ACATCGATTGCCTTGCTTACCGCAATAAGTTTTATAAAAGCATATTTAATAAATGAACAT  8403749
+
+Query  121      TTTTTGATTGGTGATATGATTTATAGAAAAGTGGTTAAGGTTACAATTTTATGTTGTTGG  180
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  8403748  TTTTTGATTGGTGATATGATTTATAGAAAAGTGGTTAAGGTTACAATTTTATGTTGTTGG  8403689
+
+Query  181      ATATACGGACTGTTTTGGTCTACTTTCCCTTTAATTGGAGTTTCGTCTTACACACTTGAA  240
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  8403688  ATATACGGACTGTTTTGGTCTACTTTCCCTTTAATTGGAGTTTCGTCTTACACACTTGAA  8403629
+
+Query  241      TCTACCAAAGCACGCTGTTCAATTAAGTGGTATACAAACACCAATACTGAAAAACTGTAT  300
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  8403628  TCTACCAAAGCACGCTGTTCAATTAAGTGGTATACAAACACCAATACTGAAAAACTGTAT  8403569
+
+Query  301      TTAATACTACTTCTCGTGTTTTGCTACACTATTCCTGTTTCTATAGTTTTAGCTTCGACT  360
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  8403568  TTAATACTACTTCTCGTGTTTTGCTACACTATTCCTGTTTCTATAGTTTTAGCTTCGACT  8403509
+
+Query  361      ATGATTTCTGCAAGATTTGTACGATCGAGTTTTAAAATTAGCTCTAGTTCTTTAGGGATG  420
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  8403508  ATGATTTCTGCAAGATTTGTACGATCGAGTTTTAAAATTAGCTCTAGTTCTTTAGGGATG  8403449
+
+Query  421      GGGGAGTCATTTGTCAAAATATTTAAATTAAGAGAAGCTAAAGTAAAATTTTCACTCACT  480
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  8403448  GGGGAGTCATTTGTCAAAATATTTAAATTAAGAGAAGCTAAAGTAAAATTTTCACTCACT  8403389
+
+Query  481      TTAATGTGTTTGTCATTTATAATGTTTTGGACTCCATACGCAATTATTGGTCTTTTATCG  540
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  8403388  TTAATGTGTTTGTCATTTATAATGTTTTGGACTCCATACGCAATTATTGGTCTTTTATCG  8403329
+
+Query  541      GGATTCGCTCGTGTAAAGCATCCGAAATGGTTGCTTGAAACTGCAGCTTTGTTTGCAAAG  600
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  8403328  GGATTCGCTCGTGTAAAGCATCCGAAATGGTTGCTTGAAACTGCAGCTTTGTTTGCAAAG  8403269
+
+Query  601      TTATCTGCTATGGTAAACCCACTATTATATTGGCAAAAAGAAGATTTTaaaaaaaaaGTT  660
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  8403268  TTATCTGCTATGGTAAACCCACTATTATATTGGCAAAAAGAAGATTTTAAAAAAAAAGTT  8403209
+
+Query  661      AGGAAAGCATTTTTAGTTTTTCGTACTTATGTCTTCTACTCATAA  705
+                |||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  8403208  AGGAAAGCATTTTTAGTTTTTCGTACTTATGTCTTCTACTCATAA  8403164
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 554734514912
+
+
+  Database: GCF_022113875.1_Hydra_105_v3_genomic.fna
+    Posted date:  Dec 16, 2024  10:52 AM
+  Number of letters in database: 819,402,624
+  Number of sequences in database:  56
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
