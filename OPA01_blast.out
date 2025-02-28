@@ -1,18 +1,4 @@
-BLASTN 2.15.0+
 
-
-Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
-Miller (2000), "A greedy algorithm for aligning DNA sequences", J
-Comput Biol 2000; 7(1-2):203-14.
-
-
-
-Database: GCF_022113875.1_Hydra_105_v3_genomic.fna
-           56 sequences; 819,402,624 total letters
-
-
-
-Query= MN822248.1 Hydra vulgaris opsin (OpA1) mRNA, complete cds
 
 Length=816
                                                                       Score     E
